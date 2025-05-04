@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const navStyle = {
   display: 'flex',
@@ -27,6 +28,14 @@ const weekButtonStyle = {
 export default function Layout({ children }) {
   return (
     <div style={{ padding: '2rem', fontFamily: 'Arial, sans-serif' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '1rem' }}>
+        <Image
+          src="/logo.png"
+          alt="Fieldwork Fitness Logo"
+          width={200}
+          height={200}
+        />
+      </div>
       <nav style={navStyle}>
         <Link href="/" style={buttonStyle}>Home</Link>
         <Link href="/about" style={buttonStyle}>About</Link>
