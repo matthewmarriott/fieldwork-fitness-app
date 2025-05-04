@@ -3,95 +3,87 @@ import Layout from '../components/Layout';
 export default function Week1() {
   return (
     <Layout>
-      <h1>Week 1</h1>
-      <p>Week 1: General Conditioning — 1 Set to Exhaustion Format
-Perform one set of each exercise to failure (max reps with good form). Rest 30–90 seconds between moves. The goal is to train endurance, control, and adaptability.
+      <div style={{ maxWidth: '800px', margin: '0 auto', padding: '1rem', lineHeight: '1.6' }}>
+        <h1 style={{ textAlign: 'center' }}>Week 1: General Conditioning</h1>
+        <p style={{ fontStyle: 'italic', textAlign: 'center' }}>
+          One set to exhaustion. Focus on form, breath, and endurance.
+        </p>
 
-🧠 Mindset:
-Focus on form and breathing. The goal is to test and build base endurance with full-body stressors across all systems you'll rely on in expeditions.
+        <section>
+          <h2>💪 Strength & Resistance</h2>
+          <ul>
+            <li>
+              <strong>Bicep Curls</strong> – Stand tall and curl dumbbells or resistance bands to your shoulders, elbows fixed. Stop when form breaks.
+            </li>
+            <li>
+              <strong>Lateral Shoulder Raises</strong> – Raise arms to shoulder level and lower slowly. Avoid shrugging.
+            </li>
+            <li>
+              <strong>Bulgarian Split Squats</strong> – Rear foot on chair, lower into lunge. Repeat to failure on both legs.
+            </li>
+            <li>
+              <strong>TRX or Bodyweight Rows</strong> – Pull body toward anchor point, keeping core tight and chest up.
+            </li>
+          </ul>
+        </section>
 
-🧩 Exercise Breakdown with Instructions
-💪 Strength & Resistance
-1. Bicep Curls (Dumbbells or Bands)
-Target: Biceps
+        <section>
+          <h2>🌀 Core & Stability</h2>
+          <ul>
+            <li>
+              <strong>Russian Twists</strong> – Sit with heels raised, rotate torso side to side. Use weight for added challenge.
+            </li>
+          </ul>
+        </section>
 
-How: Stand tall, curl weights up while keeping elbows at sides.
+        <section>
+          <h2>🥋 Martial Arts & Shadow Boxing</h2>
+          <ul>
+            <li>
+              <strong>Shadow Boxing</strong> – 2–3 min rounds of combos, footwork, and head movement. Stay light, hands up.
+            </li>
+            <li>
+              <strong>Kata / Flow</strong> – Perform a Wado Kai kata or Tai Chi form slowly with intent and control.
+            </li>
+          </ul>
+        </section>
 
-To failure: Stop when your form breaks or you can’t lift with control.
+        <section>
+          <h2>🧘 Yoga & Recovery</h2>
+          <ul>
+            <li>
+              <strong>Downward Dog to Cobra Flow</strong> – 10 slow reps moving fluidly with your breath.
+            </li>
+            <li>
+              <strong>Pigeon Pose</strong> – Hold 1–2 min per side for deep hip release.
+            </li>
+            <li>
+              <strong>Child’s Pose with Shoulder Reaches</strong> – Gently stretch and breathe into your upper back.
+            </li>
+          </ul>
+        </section>
 
-2. Lateral Shoulder Raises (Dumbbells or Bands)
-Target: Shoulders (deltoids)
-
-How: Raise arms out to the sides until shoulder-height, then lower slowly.
-
-Tip: Don’t shrug; keep neck relaxed.
-
-3. Bulgarian Split Squats
-Target: Quads, glutes, balance
-
-How: Rear foot elevated on a chair/bench, front foot forward. Lower into lunge.
-
-Form: Knee stays above ankle, torso upright.
-
-Repeat to failure on each leg
-
-4. TRX Rows or Bodyweight Rows
-Target: Back, arms
-
-How: Hold TRX handles or rings, lean back, pull your chest toward anchor.
-
-Tip: Keep core tight, lead with chest, not arms.
-
-🌀 Core & Stability
-5. Russian Twists (Weighted or Bodyweight)
-Target: Obliques and rotational control
-
-How: Sit with heels raised, twist torso side to side tapping ground or weight.
-
-To failure: Stop when core fatigues or form breaks.
-
-🔄 Mobility & Martial Arts Integration
-6. Shadow Boxing (2–3 minutes)
-Target: Cardio, agility, coordination
-
-How: Throw punches, pivots, and movement as if sparring an invisible opponent.
-
-Tip: Stay light on your feet, keep hands up, and mix combos (jabs, crosses, hooks, uppercuts).
-
-7. Martial Arts Kata or Flow
-Target: Full-body tension, focus
-
-How: Choose a known Wado Kai Kata or Tai Chi form. Execute slowly with precision.
-
-Focus: Flow, breath, grounded stance.
-
-🧘 Yoga & Recovery
-8. Downward Dog to Cobra Flow (10 slow reps)
-Target: Spine, hamstrings, core
-
-How: Move from Downward Dog to Cobra or Upward-Facing Dog.
-
-Tip: Inhale as you drop hips, exhale into Dog.
-
-9. Pigeon Pose (1–2 mins each side)
-Target: Glutes and hips
-
-How: From plank, slide one knee forward and rest into a deep hip stretch.
-
-10. Child’s Pose with Shoulder Reaches
-Target: Upper back and mental calm
-
-How: Sit back on heels, stretch arms forward. Walk fingers to each side to stretch lats.
-
-🗓️ Suggested Week 1 Schedule
-Day	Focus
-Day 1	Full Routine (All Exercises)
-Day 2	Light Yoga + Shadow Boxing
-Day 3	Repeat Full Routine
-Day 4	Active Recovery (Walk, Stretch)
-Day 5	Martial Flow + Strength Focus
-Day 6	Repeat Full Routine
-Day 7	Rest or Tai Chi / Kata Practice</p>
+        <section>
+          <h2>🗓️ Weekly Schedule</h2>
+          <table style={{ width: '100%', borderCollapse: 'collapse', marginTop: '1rem' }}>
+            <thead>
+              <tr>
+                <th style={{ borderBottom: '1px solid #ccc' }}>Day</th>
+                <th style={{ borderBottom: '1px solid #ccc' }}>Focus</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Day 1</td><td>Full Routine (All Exercises)</td></tr>
+              <tr><td>Day 2</td><td>Light Yoga + Shadow Boxing</td></tr>
+              <tr><td>Day 3</td><td>Repeat Full Routine</td></tr>
+              <tr><td>Day 4</td><td>Active Recovery (Walk, Stretch)</td></tr>
+              <tr><td>Day 5</td><td>Martial Flow + Strength Focus</td></tr>
+              <tr><td>Day 6</td><td>Repeat Full Routine</td></tr>
+              <tr><td>Day 7</td><td>Rest or Tai Chi / Kata Practice</td></tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
     </Layout>
   );
 }
