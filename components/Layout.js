@@ -1,17 +1,41 @@
 import Link from 'next/link';
 
+const navStyle = {
+  display: 'flex',
+  flexWrap: 'wrap',
+  gap: '0.5rem',
+  justifyContent: 'center',
+  marginBottom: '2rem'
+};
+
+const buttonStyle = {
+  padding: '0.6rem 1rem',
+  borderRadius: '6px',
+  textDecoration: 'none',
+  fontWeight: 'bold',
+  fontSize: '0.95rem',
+  transition: 'background 0.3s',
+  color: '#fff',
+  background: '#4a90e2'
+};
+
+const weekButtonStyle = {
+  ...buttonStyle,
+  background: '#666'
+};
+
 export default function Layout({ children }) {
   return (
-    <div style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
-      <nav style={{ marginBottom: '2rem' }}>
-        <Link href="/" style={{ marginRight: '1rem' }}>Home</Link>
-        <Link href="/about" style={{ marginRight: '1rem' }}>About</Link>
-        <Link href="/contact" style={{ marginRight: '1rem' }}>Contact</Link>
+    <div style={{ padding: '2rem', fontFamily: 'Arial, sans-serif' }}>
+      <nav style={navStyle}>
+        <Link href="/" style={buttonStyle}>Home</Link>
+        <Link href="/about" style={buttonStyle}>About</Link>
+        <Link href="/contact" style={buttonStyle}>Contact</Link>
         {Array.from({ length: 8 }, (_, i) => (
           <Link
             key={i}
             href={`/week${i + 1}`}
-            style={{ marginRight: '1rem' }}
+            style={weekButtonStyle}
           >
             Week {i + 1}
           </Link>
