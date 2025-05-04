@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 export default function Week4() {
   return (
     <Layout>
-      <div style={ maxWidth: '800px', margin: '0 auto', padding: '1rem', lineHeight: '1.6' }>
+     <div style={{ maxWidth: '800px', margin: '0 auto', padding: '1rem', lineHeight: '1.6' }}>
         <h1 style={ textAlign: 'center' }>Week 4: Polar Strength & Breath</h1>
         <p style={ fontStyle: 'italic', textAlign: 'center' }>
           One set to exhaustion. Increase intensity. Mix in cardio, HIIT, and precision strength.
